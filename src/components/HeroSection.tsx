@@ -13,7 +13,7 @@ function HeroSection() {
 
         <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8">Transforme sua forma de realizar o Permanente Afro com uma metodologia atual, segura e altamente técnica.</p>
 
-        <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8">Nos dias <b>03 e 04 de agosto de 2026</b>, a Nanno Cosmética recebe a especialista <b>Elaine Figueiredo</b> para dois dias de imersão completa em <b>Remodelagem de Cachos.</b> Um treinamento desenvolvido para profissionais que desejam dominar a técnica, entender a ciência por trás do procedimento e entregar resultados de excelência aos seus clientes.</p>
+        <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8">Nos dias <b>03 e 04 de agosto de 2026</b>, a Nanno Cosmética recebe a especialista <b>Elaine Figueiredo</b> para dois dias de imersão completa em <b>Permanente Afro.</b> Um treinamento desenvolvido para profissionais que desejam dominar a técnica, entender a ciência por trás do procedimento e entregar resultados de excelência aos seus clientes.</p>
 
         <a
           href="#ingresso"

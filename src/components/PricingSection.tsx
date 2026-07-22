@@ -63,7 +63,7 @@ function TicketSection() {
               <div className="flex flex-col gap-4">
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-blue-500 mt-1 w-4 h-4 shrink-0" />
-                  <p className="text-zinc-300">Acesso completo aos 2 dias de imersão presencial em Remodelagem de Cachos.</p>
+                  <p className="text-zinc-300">Acesso completo aos 2 dias de imersão em permanente afro presencial.</p>
                 </div>
 
                 <div className="flex items-start gap-3">
