@@ -9,7 +9,7 @@ function TicketSection() {
         <div className="text-center mb-12">
           <span className="text-sm uppercase tracking-[0.3em] text-blue-500">Garanta sua vaga</span>
 
-          <h2 className="text-3xl lg:text-5xl font-bold mt-4 mb-6 leading-tight">Ingresso para a Imersão em Soltura de Cachos</h2>
+          <h2 className="text-3xl lg:text-5xl font-bold mt-4 mb-6 leading-tight">Ingresso para a Imersão em Permanente Afro</h2>
 
           <p className="text-zinc-300 text-base lg:text-lg max-w-3xl mx-auto leading-relaxed">Garanta sua participação em uma experiência completa de aprendizado, prática e atualização profissional com a Nanno Cosmética.</p>
         </div>
