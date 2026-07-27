@@ -37,14 +37,14 @@ function TicketSection() {
                   <div className="flex flex-col">
                     <span className="text-zinc-300 text-lg mb-2">12x de</span>
                     <div className="flex items-baseline">
-                      <span className="text-5xl lg:text-6xl font-bold text-blue-500">R$84</span>
-                      <span className="text-blue-500 text-lg mb-2">,40</span>
+                      <span className="text-5xl lg:text-6xl font-bold text-blue-500">R$36</span>
+                      <span className="text-blue-500 text-lg mb-2">,20</span>
                     </div>
                   </div>
                 </div>
 
                 <p className="text-white mt-3">
-                  Ou <b>R$800,00</b> à vista! <br />
+                  Ou <b>R$350,00</b> à vista! <br />
                 </p>
               </div>
 
@@ -88,7 +88,7 @@ function TicketSection() {
 
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-blue-500 mt-1 w-4 h-4 shrink-0" />
-                  <p className="text-zinc-300">Kit Plex Hair Secutiry de brinde para os participantes.</p>
+                  <p className="text-zinc-300">Kit Completo Afro System de brinde para os participantes.</p>
                 </div>
 
                 <div className="flex items-start gap-3">
