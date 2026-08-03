@@ -83,7 +83,7 @@ function TicketSection() {
 
                 <div className="flex items-start gap-3">
                   <FaCheckCircle className="text-blue-500 mt-1 w-4 h-4 shrink-0" />
-                  <p className="text-zinc-300">Coffee Break durante os dois dias de treinamento.</p>
+                  <p className="text-zinc-300">Coffee Break durante.</p>
                 </div>
 
                 <div className="flex items-start gap-3">
