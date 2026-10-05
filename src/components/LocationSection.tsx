@@ -41,13 +41,11 @@ const LocationSection = () => {
               px-8
               py-4
               font-semibold
-              text-white
+              text-black
               transition
               hover:scale-105
               bg-linear-to-r
-              from-blue-600
-            via-blue-600
-            to-blue-600
+              from-[#8C5C1C] via-[#F7C46E] to-[#AF7727]
               gap-x-2
             "
           >

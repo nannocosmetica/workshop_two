@@ -21,31 +21,31 @@ function Header() {
 
         {/* Menu desktop */}
         <nav className="hidden lg:flex items-center gap-8 text-white font-medium">
-          <a href="#inicio" className="transition hover:text-pink-400">
+          <a href="#inicio" className="transition hover:text-gray-400">
             Início
           </a>
 
-          <a href="#workshop" className="transition hover:text-pink-400">
+          <a href="#workshop" className="transition hover:text-gray-400">
             Workshop
           </a>
 
-          <a href="#sobre" className="transition hover:text-pink-400">
+          <a href="#sobre" className="transition hover:text-gray-400">
             Sobre
           </a>
 
-          {/* <a href="#cadastro" className="transition hover:text-pink-400">
+          {/* <a href="#cadastro" className="transition hover:text-gray-400">
             Cadastro
           </a> */}
 
-          <a href="#palestrante" className="transition hover:text-pink-400">
+          <a href="#palestrante" className="transition hover:text-gray-400">
             Palestrante
           </a>
 
-          <a href="#local" className="transition hover:text-pink-400">
+          <a href="#local" className="transition hover:text-gray-400">
             Local
           </a>
 
-          <a href="#ingresso" className="transition hover:text-pink-400">
+          <a href="#ingresso" className="transition hover:text-gray-400">
             Inscrição
           </a>
         </nav>
@@ -87,7 +87,7 @@ function Header() {
           <a
             href="#inicio"
             onClick={closeMenu}
-            className="transition hover:text-pink-400"
+            className="transition hover:text-gray-400"
           >
             Início
           </a>
@@ -95,7 +95,7 @@ function Header() {
           <a
             href="#workshop"
             onClick={closeMenu}
-            className="transition hover:text-pink-400"
+            className="transition hover:text-gray-400"
           >
             Workshop
           </a>
@@ -103,7 +103,7 @@ function Header() {
           <a
             href="#sobre"
             onClick={closeMenu}
-            className="transition hover:text-pink-400"
+            className="transition hover:text-gray-400"
           >
             Sobre
           </a>
@@ -111,7 +111,7 @@ function Header() {
           {/* <a
             href="#cadastro"
             onClick={closeMenu}
-            className="transition hover:text-pink-400"
+            className="transition hover:text-gray-400"
           >
             Cadastro
           </a> */}
@@ -119,7 +119,7 @@ function Header() {
           <a
             href="#palestrante"
             onClick={closeMenu}
-            className="transition hover:text-pink-400"
+            className="transition hover:text-gray-400"
           >
             Palestrante
           </a>
@@ -127,7 +127,7 @@ function Header() {
           <a
             href="#local"
             onClick={closeMenu}
-            className="transition hover:text-pink-400"
+            className="transition hover:text-gray-400"
           >
             Local
           </a>
@@ -135,7 +135,7 @@ function Header() {
           <a
             href="#ingresso"
             onClick={closeMenu}
-            className="transition hover:text-pink-400"
+            className="transition hover:text-gray-400"
           >
             Inscrição
           </a>

@@ -8,7 +8,7 @@ function AboutSection() {
             <div><img src="/logonanno.png" alt="logo da nanno cosmética" className="w-44" /></div>
             <div><img src="/logoinstituto.png" alt="logo da nanno cosmética" className="w-44" /></div>
           </div>
-          <span className="text-sm uppercase tracking-[0.3em] text-blue-500">
+          <span className="text-sm uppercase tracking-[0.3em] text-green-500">
             Sobre a empresa
           </span>
 
@@ -35,8 +35,8 @@ function AboutSection() {
           </p>
         </div>
 
-        <div className="bg-neutral-900 border border-blue-500/30 rounded-3xl p-8 shadow-2xl">
-          <h3 className="text-2xl font-bold mb-6 text-blue-500">
+        <div className="bg-neutral-900 border border-green-500/30 rounded-3xl p-8 shadow-2xl">
+          <h3 className="text-2xl font-bold mb-6 text-green-500">
             Por que aprender com a Nanno?
           </h3>
 

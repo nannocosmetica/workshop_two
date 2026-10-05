@@ -9,7 +9,7 @@ const Card = ({ icon, name, text }: IProps) => {
     <div className="flex flex-col min-h-96 overflow-hidden rounded-lg bg-neutral-800 text-white lg:w-105">
       <div className="flex flex-1 flex-col px-8">
         <div className="flex min-h-34 w-full items-center">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-linear-to-r from-blue-600 via-blue-600 to-blue-600">
+          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-linear-to-r from-[#004113] via-[#295733] to-[#004113]">
             {icon}
           </div>
         </div>
@@ -25,7 +25,7 @@ const Card = ({ icon, name, text }: IProps) => {
         </div>
       </div>
 
-      <div className="h-2 w-full bg-linear-to-r from-blue-600 via-blue-600 to-blue-600" />
+      <div className="h-2 w-full bg-linear-to-r from-[#004113] via-[#295733] to-[#004113]" />
     </div>
   );
 };

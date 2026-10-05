@@ -36,7 +36,7 @@ const WhoSection = () => {
       <div className="relative z-10 flex flex-1 items-center justify-center mt-10 lg:mt-0 flex-col">
         <img
           src="./who.png"
-          alt="Foto da palestrante"
+          alt="Foto da palestrante Dalva Alves"
           className="
             w-full
             max-w-xs
@@ -48,8 +48,8 @@ const WhoSection = () => {
           "
           id="palestrante"
         />
-        <a href="https://www.instagram.com/elainelfsantos/" className="inline-flex text-white text-2xl">
-          @elainelfsantos
+        <a href="https://www.instagram.com/dalva_alves/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-x-2 text-blue-400 text-2xl">
+          @dalva_alves <IoMdOpen className="shrink-0" />
         </a>
       </div>
 
@@ -59,15 +59,11 @@ const WhoSection = () => {
           <h1 className="text-2xl lg:text-4xl leading-tight mb-6 text-white">Quem vai te ensinar</h1>
 
           <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8 text-justify">
-            <b>Elaine Figueiredo</b> é educadora, terapeuta capilar e especialista em cabelos crespos e cacheados, com mais de 30 anos de experiência no mercado da beleza. Reconhecida por sua atuação em técnicas de{" "}
-            <a href="https://www.instagram.com/elainelfsantos/" target="_blank" rel="noreferrer" className="inline-flex whitespace-nowrap items-center gap-x-1 text-cyan-500">
-              Permanente Afro <IoMdOpen className="shrink-0" />
-            </a>
-            , alia conhecimento técnico, prática e metodologia para formar profissionais capazes de oferecer resultados seguros, modernos e de alta qualidade.
+            <b>Dalva Alves</b> é tricologista e educadora, com mais de 26 anos de experiência na área, dedicada ao cuidado do couro cabeludo e à formação de profissionais da beleza.
           </p>
 
           <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8 text-justify">
-            No <b>Workshop de Permanente Afro</b>, Elaine compartilhará sua vasta experiência, abordando desde a avaliação e o diagnóstico da fibra capilar até a execução completa da técnica, permitindo que os participantes dominem procedimentos com segurança, excelência e resultados que valorizam a beleza natural dos cabelos crespos e cacheados.
+            No <b>Workshop de Tricologia Eubiótica</b>, em parceria com a Nanno Cosmética, Dalva vai compartilhar sua experiência em um percurso que começa no microbioma do couro cabeludo e no exposoma capilar. Daí, passa pelo eixo intestino-cabelo, pela queda capilar associada às canetas emagrecedoras e pela conduta pré e pós mega hair e tranças. O curso fecha com marcadores laboratoriais, fitoterapia avançada, eletroterapia, óleos vegetais e essenciais e argiloterapia. Assim, os participantes aprendem a montar protocolos personalizados com segurança, critério técnico e resultados que fidelizam os clientes.
           </p>
 
           <a
@@ -82,17 +78,15 @@ const WhoSection = () => {
               px-8
               py-4
               font-semibold
-              text-white
+              text-black
               transition
               hover:scale-105
               bg-linear-to-r
-              from-blue-600
-            via-blue-600
-            to-blue-600
+              from-[#8C5C1C] via-[#F7C46E] to-[#AF7727]
               w-full
             "
           >
-            QUERO DOMINAR A SOLTURA DE CACHOS
+            QUERO ME INSCREVER!
           </a>
         </div>
       </div>

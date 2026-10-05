@@ -2,18 +2,16 @@ function HeroSection() {
   return (
     <section className="relative z-10 flex flex-col lg:flex-row min-h-screen px-4 lg:px-12 pt-20" id="inicio">
       {/* Conteúdo */}
-      <div className="flex flex-1 flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pl-12 pb-4">
+      <div className="flex flex-1 flex-col justify-center items-center lg:items-start text-center lg:text-left lg:pl-12 pb-12">
         <img src="./logo.png" alt="Logo" className="w-64 lg:w-96" />
 
-        <h1 className="text-4xl lg:text-6xl leading-tight mb-6">
-          <span className="font-bold">Dominando Crespos</span>
+        <h1 className="text-4xl lg:text-4xl leading-tight mb-6">
+          <span className="font-bold">Nanno Cosmética & Tricologista Dalva Alves</span>
           <br />
-          <span className="text-2xl">Workshop de Permanente Afro</span>
+          <span className="text-2xl">Workshop de Tricologia Eubiótica</span>
         </h1>
 
-        <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8">Transforme sua forma de realizar o Permanente Afro com uma metodologia atual, segura e altamente técnica.</p>
-
-        <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8">No dia <b>24 de agosto de 2026</b>, a Nanno Cosmética recebe a especialista <b>Elaine Figueiredo</b> para um Workshop de Permanente Afro completo. Um treinamento desenvolvido para profissionais que desejam dominar a técnica, entender a ciência por trás do procedimento e entregar resultados de excelência aos seus clientes.</p>
+        <p className="text-base lg:text-lg text-zinc-300 leading-relaxed mb-8">No dia <b>07 de Dezembro</b>, a Especialista em Tricologia Dalva Alves em parceiria com o Instituto Nanno estará realizando um workshop exclusivo para compartilhar toda sua experiência e expertise técnica.</p>
 
         <a
           href="#ingresso"
@@ -31,9 +29,7 @@ function HeroSection() {
             transition
             hover:scale-105
             bg-linear-to-r
-            from-blue-600
-            via-blue-600
-            to-blue-600
+            from-[#8C5C1C] via-[#c4984c] to-[#AF7727]
           "
         >
           SAIBA MAIS
@@ -41,9 +37,9 @@ function HeroSection() {
       </div>
 
       {/* Imagem */}
-      <div className="flex flex-1 items-end justify-center mt-10 lg:mt-0">
+      <div className="flex flex-1 items-end justify-center mt-10 lg:mt-0 mb-8">
         <img
-          src="./tecnica.png"
+          src="./tec.png"
           alt="Foto da palestrante"
           className="
             w-full

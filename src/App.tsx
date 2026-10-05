@@ -14,19 +14,9 @@ function App() {
     <main className="bg-black">
       <div className="relative min-h-screen overflow-hidden bg-neutral-950 text-white">
         {/* Background */}
-        <div
-          className="
-        absolute inset-0
-        bg-[url('/bg.jpg')]
-        bg-cover
-        bg-center
-        "
-        />
-
+        <div className="absolute inset-0 bg-[url('/bg.jpg')] bg-cover bg-center" />
         <div className="absolute inset-0 bg-black/20" />
-
         <Header />
-
         <HeroSection />
       </div>
       <CardSection />
@@ -38,6 +28,9 @@ function App() {
       <ScrollToTop />
       <Footer />
     </main>
+    // <main className="flex w-full h-screen items-center justify-center text-3xl">
+    //   <div>Em breve um novo workshop para você!</div>
+    // </main>
   );
 }
 
